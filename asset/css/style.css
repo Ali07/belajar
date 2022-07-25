@@ -86,7 +86,7 @@ section{
 }
 
 .form-panel .btn-search{
-    background-color: var(--secondary-color);
+    background-color: grey;
     color: #ffff;
     text-decoration: none;
     padding: 10px 10px;
