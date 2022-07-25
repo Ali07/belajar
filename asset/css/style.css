@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;600;700&display=swap');
+
+:root{
+    --main-color: #1D212F;
+    --secondary-color: #F58634;
+
+    --title-font: 'Poppins', sans-serif;
+    --main-font: 'Inter', sans-serif;
+}
+
+body{
+    font-family: var(--main-font);
+    font-weight: 400;
+}
+
+section{
+    padding: 100px;
+}
+
+.navbar{
+    background-color: var(--main-color);
+}
+
+.navbar .navbar-brand{
+    color: #ffff;
+    font-family: var(--title-font);
+    font-family: 700;
+    font-size: 1.5rem;
+}
+
+.navbar .navbar-nav .nav-link{
+    color: #ffff;
+    font-family: var(--main-font);
+    font-size: 1rem;
+}
+
+.navbar .btn-signin a{
+    font-weight: 600;
+    background-color: var(--secondary-color);
+    color: #ffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* home */
+.home{
+    background-color: var(--main-color);
+}
+
+.home .home-title{
+    color: #ffff;
+    font-family: var(--title-font);
+    font-size: 3.375rem;
+    font-weight: 600;
+}
+
+.home .home-subtitle{
+    color: #ffff;
+    font-size: 1.25rem;
+}
+
+.home .form-panel{
+    background-color: #ffff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.form-panel input{
+    border: none;
+    padding: 5px;
+}
+
+.form-panel input:focus{
+    outline: none;
+}
+
+.form-panel select{
+    border: none;
+    padding: 5px;
+}
+
+.form-panel select:focus{
+    outline: none;
+}
+
+.form-panel .btn-search{
+    background-color: var(--secondary-color);
+    color: #ffff;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+/* home-end */
